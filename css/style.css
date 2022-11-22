@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101213;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #FFF;
+    text-decoration: none
+}
+
+#conteudo {
+    width: 100%;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#centro_topo {
+    padding-top: 18px;
+}
+
+#centro_topo_titulo h1 {
+    float: left;
+    font-weight: bold;
+}
+
+#centro_topo_total {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#centro_topo_total span.titulo {
+    float: left;
+    color: #94A3B8;
+    font-size: 18px;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+#centro_topo_total span.saldo {
+    float: left;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+#centro_lista {
+    padding: 25px;
+    width: 100%;
+    background-color: #1E1F25;
+    border-radius: 20px;
+}
+
+#centro_lista_topo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+#centro_lista_topo span.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#centro_lista_topo span.button {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: #000;
+    padding: 5px 15px;
+    border-radius: 31px;
+    cursor: pointer;
+}
+
+#centro_lista_tabela {
+    overflow: auto;
+    height: 370px;
+}
+
+#centro_lista_tabela_head table tr th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #94A3B8;
+    text-align: left;
+    padding: 20px;
+}
+
+#centro_lista_tabela_head table tr th {
+    border-bottom: 1px solid #475569;
+}
+
+
+#centro_lista_tabela_head table tr th.column0,
+#centro_lista_tabela table tr td.column0 {
+    width: 10%;
+}
+
+#centro_lista_tabela_head table tr th.column1,
+#centro_lista_tabela table tr td.column1 {
+    width: 25%;
+}
+
+#centro_lista_tabela_head table tr th.column2,
+#centro_lista_tabela table tr td.column2 {
+    width: 21%;
+}
+
+#centro_lista_tabela_head table tr th.column3,
+#centro_lista_tabela table tr td.column3 {
+    width: 25%;
+}
+
+#centro_lista_tabela_head table tr th.column4,
+#centro_lista_tabela table tr td.column4 {
+    width: 19%;
+}
+
+#centro_lista_tabela_head table tr th.column5,
+#centro_lista_tabela table tr td.column5 {
+    width: 20%;
+}
+
+#centro_lista_tabela table tr.data:hover {
+    background-color: #262833;
+    cursor: pointer;
+}
+
+#centro_lista_tabela table tr td {
+    padding: 20px;
+}
+
+#centro_lista_tabela table tr td.column1 svg {
+    float: left;
+    margin-right: 15px;
+}
+
+#centro_lista_tabela table tr td.column1 img {
+    float: left;
+    margin-right: 15px;
+}
+
+#centro_lista_tabela table tr td.column1 div.cripto span.abv {
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+#centro_lista_tabela table tr td.column1 div.cripto span.nome {
+    display: block;
+    color: #94A3B8;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: capitalize
+}
+
+#centro_lista_tabela table tr td.column2 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#centro_lista_tabela table tr td.column3 span.price {
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+#centro_lista_tabela table tr td.column3 span.variantRed {
+    display: block;
+    color: #FE5C3E;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#centro_lista_tabela table tr td.column3 span.variantGreen {
+    display: block;
+    color: #5CFE3E;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#centro_lista_tabela table tr td.column4 span.balance {
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+#centro_lista_tabela table tr td.column4 span.cripto {
+    display: block;
+    color: #94A3B8;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#centro_lista_tabela table tr td.column5 span.button {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: #000;
+    padding: 5px 15px;
+    border-radius: 31px;
+    cursor: pointer;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #94A3B8;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+}
+
+
+
+
+
+span.brl {
+    float: left;
+    margin-right: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+span.usd {
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+    margin-right: 50px;
+}
+
+.toggle {
+    float: left;
+    padding-top: 12px;
+}
+
+.toggle>input {
+    display: none;
+}
+
+.toggle>label {
+    position: relative;
+    display: block;
+    height: 15px;
+    width: 40px;
+    background: #898989;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.toggle>label:after {
+    position: absolute;
+    left: -2px;
+    top: -3px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+    content: '';
+    transition: all 0.3s ease;
+}
+
+.toggle>label:active:after {
+    transform: scale(1.15, 0.85);
+}
+
+.toggle>input:checked~label {
+    background: #6fbeb5;
+}
+
+.toggle>input:checked~label:after {
+    left: 20px;
+    background: #179588;
+}
+
+.toggle>input:disabled~label {
+    background: #d5d5d5;
+    pointer-events: none;
+}
+
+.toggle>input:disabled~label:after {
+    background: #bcbdbc;
+}

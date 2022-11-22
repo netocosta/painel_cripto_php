@@ -28,21 +28,21 @@ a:active {
     justify-content: flex-start;
 }
 
-#centro_topo {
+#centro_bottom {
     padding-top: 18px;
 }
 
-#centro_topo_titulo h1 {
+#centro_bottom_titulo h1 {
     float: left;
     font-weight: bold;
 }
 
-#centro_topo_total {
+#centro_bottom_total {
     float: right;
     margin-bottom: 20px;
 }
 
-#centro_topo_total span.titulo {
+#centro_bottom_total span.titulo {
     float: left;
     color: #94A3B8;
     font-size: 18px;
@@ -50,7 +50,7 @@ a:active {
     margin-right: 10px;
 }
 
-#centro_topo_total span.saldo {
+#centro_bottom_total span.saldo {
     float: left;
     color: #FFF;
     font-size: 35px;

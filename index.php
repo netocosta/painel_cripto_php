@@ -75,8 +75,8 @@ $cripto->Database();
 
         </div>
 
-        <div id="centro_topo">
-            <div id="centro_topo_total">
+        <div id="centro_bottom">
+            <div id="centro_bottom_total">
                 <span class="titulo">Saldo Geral:</span>
                 <span class="saldo">$ <?= number_format($geral, 2, ',', '.') ?></span>
             </div>

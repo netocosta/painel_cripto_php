@@ -1,4 +1,4 @@
-# Painel de Criptomoedas em HTML, CSS e JavaScript
+# Painel de Criptomoedas em HTML, CSS, PHP e JavaScript
 
 O intuito desse painel é você poder adicionar as suas criptomoedas e carteiras e verificar o saldo atual em um único lugar.
 
